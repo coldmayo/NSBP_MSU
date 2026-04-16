@@ -22,6 +22,7 @@
     height: 100%;
     object-fit: cover;
 }
+
 .Positions {
     display: flex;
     justify-content: center; /* Center the boxes */
@@ -32,12 +33,20 @@
     margin-top: 50px;
 }
 
-.prez, .vice-prez, .tresurer, .secr {
+.prez, .vice-prez, .tresurer, .secr, .fac_adv {
     text-align: center;
     flex: 1 1 250px;
     max-width: 300px;
     min-height: 150px;
-    color: black;
+    color: white;
     padding: 10px;
     border-radius: 10px;
+
+    background-color: rgba(24, 69, 59, 0.9);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
 }
